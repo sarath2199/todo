@@ -1,0 +1,68 @@
+.Body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100vh;
+    position: relative;
+}
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: white;
+    width: 28%;
+    height: 380px;
+    box-shadow: 0 15px 20px #ABB2B9;
+   
+}
+
+.formc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ padding:40px 20px 0px 25px;
+ 
+}
+
+
+.form button{
+    background-color: blue;
+    color: white;
+    width:40vh;
+    height: 4vh;
+    margin-left: 13%;
+    border-radius:5px 5px 5px 5px ;
+}
+.formc input{
+    width: 95%;
+    height: 4vh;
+   
+    
+
+    }
+.names{
+    display:flex;
+    flex-wrap: wrap;
+    width:50%;
+    
+}
+.login{
+    margin-left: 28%;
+    padding-bottom: 0%;
+    color: blue;
+    padding-top: 4px;
+}
+.info{
+    margin-top: 10px;
+    width: 100%;
+}
+.sec{
+    margin-top: 10px;
+    width: 100%;
+}
+.error{ 
+    color: red;
+    font-Size: 14px; 
+    margin-Bottom: 6px;
+} 
+
